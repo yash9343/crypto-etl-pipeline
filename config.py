@@ -22,7 +22,7 @@ DB_CONFIG = {
 DB_URL = (
     f"mysql+pymysql://{DB_CONFIG['user']}:{quote_plus(DB_CONFIG['password'])}"
     f"@{DB_CONFIG['host']}:{DB_CONFIG['port']}/{DB_CONFIG['database']}"
-    f"?ssl_verify_cert=true&ssl_verify_identity=true"
+    f"?ssl_verify_cert=false&ssl_verify_identity=false"
 )
 
 NULL_DROP_THRESHOLD = 0.60
