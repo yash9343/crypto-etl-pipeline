@@ -6,7 +6,7 @@ from loguru import logger
 from sqlalchemy import create_engine, text
 from urllib.parse import quote_plus
 
-sys.path.append(str(Path(__file__).parent.parent))
+sys.path.append(str(Path(__file__).parent))
 from config import DATA_CLEANED, DATA_TRANSFORMED, DB_CONFIG
 
 logger.remove()
