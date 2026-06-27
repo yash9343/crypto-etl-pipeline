@@ -4,7 +4,7 @@ import pandas as pd
 from pathlib import Path
 from loguru import logger
 
-sys.path.append(str(Path(__file__).parent.parent))
+sys.path.append(str(Path(__file__).parent))
 from config import DATA_CLEANED, DATA_TRANSFORMED
 
 logger.remove()
