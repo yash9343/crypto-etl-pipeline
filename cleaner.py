@@ -5,7 +5,7 @@ from pathlib import Path
 from loguru import logger
 from datetime import datetime
 
-sys.path.append(str(Path(__file__).parent.parent))
+sys.path.append(str(Path(__file__).parent))
 from config import DATA_RAW, DATA_CLEANED
 
 logger.remove()
