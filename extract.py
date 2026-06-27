@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 from loguru import logger
 
-sys.path.append(str(Path(__file__).parent.parent))
+sys.path.append(str(Path(__file__).parent))
 from config import DATA_RAW, COINS
 
 logger.remove()
